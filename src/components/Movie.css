@@ -147,4 +147,18 @@
 }
 @media all and (max-width: 960px) {}
 @media all and (max-width: 768px) {}
-@media all and (max-width: 414px) {}
+@media all and (max-width: 414px) {
+  .contents_wrap{
+    height: 100vh;
+    padding: 0;
+  }
+  .movie_content{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 20px;
+  }
+  .background_img{
+    height: 100vh;
+  }
+}

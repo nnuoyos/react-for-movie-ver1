@@ -28,6 +28,7 @@ function Home(){
       title={movie.title}
       year={movie.year}
       summary={movie.summary}
+      synopsis = {movie.synopsis}
       rating={movie.rating}
       runtime={movie.runtime} 
       genres={movie.genres}/>
