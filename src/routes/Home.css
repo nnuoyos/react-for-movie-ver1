@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@100;200;300&display=swap');
 .container {
   height: 100%;
   display: contents;
@@ -31,6 +32,7 @@
   text-decoration: none;
   color:red;
   font-size: 50px;
+  font-family: 'Anton', sans-serif;
 }
 .header h1{
   margin-bottom: 0;
@@ -69,10 +71,18 @@
   .movies .movie{
     width: 29%;
   }
-}
-@media screen and (max-width : 414px){
   .header a{
     font-size: 33px;
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width : 414px){
+  .header h1{
+    padding: 6px;
+  }
+  .header a{
+    font-size: 33px;
+    margin-left: 4%;
   }
   .container {
     height: 100%;
