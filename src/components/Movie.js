@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Movie.css";
 
-function Movie({id,coverImage, title, summary, genres, year,runtime,rating}){
+function Movie({id,coverImage, title}){
     return (
     <div className="movie">
       <img className="movie_img" src={coverImage} alt={title}/>
@@ -14,11 +14,6 @@ function Movie({id,coverImage, title, summary, genres, year,runtime,rating}){
         </div>
       </div>
         <h2 className="movie_title"><Link to={`/movie/${id}`}>{title}</Link></h2>
-        {/* <h3 className="movie_year">{year}</h3> */}
-        {/* <p className="movie_summary">{summary.length > 235 ? `${summary.slice(0,235)}...` : summary}</p> */}
-      {/* <ul className="movie_genres">
-        {genres.map((g) => <li key={g}>{g}</li>)}
-      </ul> */}
     </div>);
 }
 //Movie 컴포넌트의 PropTypes 설정

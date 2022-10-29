@@ -1,8 +1,7 @@
 .container {
   height: 100%;
-  display: contents; /*내용크기에 맞춰 가로방향으로 그러니까 오른쪽으로 덧붙인다. */
+  display: contents;
   justify-content: center;
-  /* background-color: #111; */
 }
 .loader {
   width: 100%;
@@ -16,13 +15,6 @@
   background-color: #141414;
 }
 .movies {
-  /* display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 
-  1fr));
-  gap: 100px;
-  padding: 50px;
-  width: 80%;
-  padding-top: 70px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -48,7 +40,6 @@
     height: 100%;
     display: contents;
     justify-content: center;
-    /* background-color: #111; */
   }
   .loader {
     width: 100%;
@@ -59,12 +50,6 @@
     font-weight: 300;
   }
   .movies {
-    /* display: grid;
-    grid-template-columns: repeat(2, minmax(400px, 1fr));
-    gap: 100px;
-    padding: 50px;
-    width: 80%;
-    padding-top: 70px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -73,33 +58,29 @@
     width: 20%;
     padding: 30px;
   }
-  
 }
 @media screen and (max-width : 1280px){
   .movies .movie{
     width: 20%;
     padding: 30px;
   }
-
 }
 @media screen and (max-width : 768px){
   .movies .movie{
-    width: 45%;
+    width: 29%;
   }
-
 }
 @media screen and (max-width : 414px){
+  .header a{
+    font-size: 33px;
+  }
   .container {
     height: 100%;
-    display: contents; /*내용크기에 맞춰 가로방향으로 그러니까 오른쪽으로 덧붙인다. */
+    display: contents;
     justify-content: center;
   }
   .movies .movie{
-    width: 100%;
-    padding: 20px;
+    width: 42%;
+    padding: 10px;
   }
-
 }
-
-
-  

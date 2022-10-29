@@ -37,7 +37,7 @@ function Detail(){
                         <img className="detail_img_medium" src={movie.medium_cover_image}
                         alt={movie.medium_cover_image}></img>
                         <div className="content_text">
-                            <h4>영화 줄거리{/*  {movie.synopsis} */}</h4>
+                            <h4>영화 줄거리</h4>
                             <div>
                                 <div className="movie_description">{movie.description_full}</div>
                                 <span>개봉 {movie.year}년</span><br/> 
